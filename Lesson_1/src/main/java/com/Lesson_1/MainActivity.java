@@ -21,8 +21,7 @@ public class MainActivity extends AppCompatActivity {
         tv = findViewById(R.id.tv);
         ((Button)findViewById(R.id.button)).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                new ProgressTask().execute();
+            public void onClick(View view) { new ProgressTask().execute();
             }
         });
     }
